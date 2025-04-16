@@ -6,27 +6,18 @@ import {
   javascript,
   typescript,
   html,
-  css,
   reactjs,
-  redux,
-  tailwind,
   nodejs,
   git,
   figma,
   docker,
   postgresql,
-  rubyrails,
-  graphql,
   komikult,
   leaderboard,
   math,
   movie,
   nyeusi,
-  space,
-  coverhunt,
-  dcc,
-  kelhel,
-  microverse,
+  coverhunt
 } from '../assets';
 
 export const navLinks = [
@@ -46,7 +37,7 @@ export const navLinks = [
 
 const services = [
   {
-    title: 'Frontend Developer',
+    title: 'Software Engineer',
     icon: frontend,
   },
   {
@@ -54,7 +45,7 @@ const services = [
     icon: backend,
   },
   {
-    title: 'UI/UX Design',
+    title: 'AI Developer',
     icon: ux,
   },
   {
@@ -69,10 +60,6 @@ const technologies = [
     icon: html,
   },
   {
-    name: 'CSS 3',
-    icon: css,
-  },
-  {
     name: 'JavaScript',
     icon: javascript,
   },
@@ -85,24 +72,8 @@ const technologies = [
     icon: reactjs,
   },
   {
-    name: 'Redux Toolkit',
-    icon: redux,
-  },
-  {
-    name: 'Tailwind CSS',
-    icon: tailwind,
-  },
-  {
     name: 'Node JS',
     icon: nodejs,
-  },
-  {
-    name: 'Rails',
-    icon: rubyrails,
-  },
-  {
-    name: 'graphql',
-    icon: graphql,
   },
   {
     name: 'postgresql',
@@ -124,32 +95,11 @@ const technologies = [
 
 const experiences = [
   {
-    title: 'Front-End Developer',
-    company_name: 'Cover Hunt',
+    title: 'AI Tester',
+    company_name: 'Outlier',
     icon: coverhunt,
     iconBg: '#333333',
-    date: 'Aug 2021 - Feb 2022',
-  },
-  {
-    title: 'Mentor (Volunteer)',
-    company_name: 'Microverse',
-    icon: microverse,
-    iconBg: '#333333',
-    date: 'Mar 2022 - May 2022',
-  },
-  {
-    title: 'Junior Software Engineer',
-    company_name: 'Kelhel',
-    icon: kelhel,
-    iconBg: '#333333',
-    date: 'May 2022 - Oct 2022',
-  },
-  {
-    title: 'Full Stack Developer',
-    company_name: 'Diversity Cyber Council',
-    icon: dcc,
-    iconBg: '#333333',
-    date: 'Sep 2022 - Present',
+    date: 'Apr 2025 - Present',
   },
 ];
 

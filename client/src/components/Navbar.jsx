@@ -10,8 +10,8 @@ const Navbar = () => {
 
   return (
     <nav
-      className={`${styles.paddingX} w-full flex items-center py-2 fixed 
-      top-0 z-20 bg-flashWhite sm:opacity-[0.97] xxs:h-[12vh]`}>
+      className={`${styles.paddingX} w-full flex items-center py-1 fixed 
+      top-0 z-20 bg-flashWhite sm:opacity-[0.97] xxs:h-[8vh]`}>
       <div className="w-full flex justify-between items-center max-w-7xl mx-auto">
         <Link
           to="/"
@@ -21,26 +21,24 @@ const Navbar = () => {
             window.scrollTo(0, 0);
           }}>
           <img
-            src={logo} // your logo comes here
+            src={logo || "/placeholder.svg"}
             alt="logo"
-            className="sm:w-[50px] sm:h-[50px] w-[45px] h-[45px] object-contain"
+            className="sm:w-[40px] sm:h-[40px] w-[35px] h-[35px] object-contain"
           />
 
-          {/* if you have text you want besides your logo it comes here.
-          Otherwise delete this if you don't need it. */}
           <img
-            src={logotext}
+            src={logotext || "/placeholder.svg"}
             alt="logo"
-            className="sm:w-[90px] sm:h-[90px] w-[85px] h-[85px] -ml-[0.6rem] object-contain"
+            className="sm:w-[70px] sm:h-[70px] w-[65px] h-[65px] -ml-[0.6rem] object-contain"
           />
         </Link>
-        <ul className="list-none hidden sm:flex flex-row gap-14 mt-2">
+        <ul className="list-none hidden sm:flex flex-row gap-14 mt-0">
           {navLinks.map((nav) => (
             <li
               key={nav.id}
               className={`${
                 active === nav.title ? 'text-french' : 'text-eerieBlack'
-              } hover:text-taupe text-[21px] font-medium font-mova 
+              } hover:text-taupe text-[18px] font-medium font-mova 
                 uppercase tracking-[3px] cursor-pointer nav-links`}
               onClick={() => setActive(nav.title)}>
               <a href={`#${nav.id}`}>{nav.title}</a>
@@ -58,7 +56,7 @@ const Navbar = () => {
                 }`}>
               <div className="flex justify-end">
                 <img
-                  src={close}
+                  src={close || "/placeholder.svg"}
                   alt="close"
                   className="w-[22px] h-[22px] object-contain cursor-pointer"
                   onClick={() => setToggle(!toggle)}
@@ -86,9 +84,9 @@ const Navbar = () => {
             </div>
           ) : (
             <img
-              src={menu}
+              src={menu || "/placeholder.svg"}
               alt="menu"
-              className="w-[34px] h-[34px] object-contain cursor-pointer"
+              className="w-[28px] h-[28px] object-contain cursor-pointer"
               onClick={() => setToggle(!toggle)}
             />
           )}

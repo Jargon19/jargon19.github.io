@@ -101,8 +101,9 @@ const Experience = () => {
               hover:text-eerieBlack transition duration-[0.2s] 
               ease-in-out"
               onClick={() =>
+                // resume link
                 window.open(
-                  'resume link', //paste the link to your resume here
+                  'https://www.dropbox.com/scl/fi/g1auwg8xlu7mgbjj3dgyt/Resume.pdf?rlkey=pjtc8iwb7d2lmmhp1fx49e43s&st=tqrznsdq&dl=0',
                   '_blank'
                 )
               }
