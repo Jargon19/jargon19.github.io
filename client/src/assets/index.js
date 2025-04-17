@@ -21,7 +21,6 @@ import menu from './icons/menu.png';
 import resume from './icons/resume.png';
 import send from './icons/send.png';
 import sendHover from './icons/sendHover.png';
-import linkedin from './icons/linkedin-logo.png'
 
 import css from './tech/css.png';
 import docker from './tech/docker.png';
@@ -39,16 +38,9 @@ import postgresql from './tech/postgresql.png';
 import rubyrails from './tech/rubyrails.png';
 
 import coverhunt from './company/coverhunt.png';
-import dcc from './company/dcc.png';
-import kelhel from './company/kelhel.png';
-import microverse from './company/microverse.png';
 
-import komikult from './projects/komikult.png';
-import leaderboard from './projects/leaderboard.png';
-import math from './projects/math-magicians.png';
-import movie from './projects/movie-metro.png';
-import nyeusi from './projects/nyeusi.png';
-import space from './projects/space-hub.png';
+import pegpark from './projects/pegasusparking.png';
+import soon from './projects/soon.jpg'
 
 export {
   bwmap,
@@ -85,15 +77,8 @@ export {
   redux,
   tailwind,
   typescript,
-  komikult,
-  leaderboard,
-  math,
-  movie,
-  nyeusi,
-  space,
+  pegpark,
+  soon,
   coverhunt,
-  dcc,
-  kelhel,
-  microverse,
   ucf,
 };

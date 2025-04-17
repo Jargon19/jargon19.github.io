@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { styles } from '../styles';
 import { navLinks } from '../constants';
-import { close, menu, logo, logotext } from '../assets';
+import { close, menu } from '../assets';
 
 const Navbar = () => {
   const [active, setActive] = useState('');
@@ -11,35 +11,32 @@ const Navbar = () => {
   return (
     <nav
       className={`${styles.paddingX} w-full flex items-center py-1 fixed 
-      top-0 z-20 bg-flashWhite sm:opacity-[0.97] xxs:h-[8vh]`}>
+      top-0 z-20 bg-flashWhite sm:opacity-[0.97] xxs:h-[10vh]`}>
       <div className="w-full flex justify-between items-center max-w-7xl mx-auto">
         <Link
           to="/"
-          className="flex items-center gap-2"
+          className="flex items-center relative group py-1"
           onClick={() => {
             setActive('');
             window.scrollTo(0, 0);
           }}>
-          <img
-            src={logo || "/placeholder.svg"}
-            alt="logo"
-            className="sm:w-[40px] sm:h-[40px] w-[35px] h-[35px] object-contain"
-          />
-
-          <img
-            src={logotext || "/placeholder.svg"}
-            alt="logo"
-            className="sm:w-[70px] sm:h-[70px] w-[65px] h-[65px] -ml-[0.6rem] object-contain"
-          />
+          {/* Portfolio text replacing logo images */}
+          <span className="text-[28px] sm:text-[32px] font-bold font-mova text-battleGray tracking-wider transition-colors duration-300 group-hover:text-french">
+            Portfolio
+          </span>
+          
+          {/* Animated underline effect on hover */}
+          <span className="absolute bottom-0 left-0 w-0 h-[3px] bg-french transition-all duration-300 group-hover:w-full"></span>
         </Link>
-        <ul className="list-none hidden sm:flex flex-row gap-14 mt-0">
+        
+        <ul className="list-none hidden sm:flex flex-row gap-14 mt-1">
           {navLinks.map((nav) => (
             <li
               key={nav.id}
               className={`${
                 active === nav.title ? 'text-french' : 'text-eerieBlack'
-              } hover:text-taupe text-[18px] font-medium font-mova 
-                uppercase tracking-[3px] cursor-pointer nav-links`}
+              } hover:text-taupe text-[20px] font-medium font-mova 
+                uppercase tracking-[3px] cursor-pointer nav-links py-1`}
               onClick={() => setActive(nav.title)}>
               <a href={`#${nav.id}`}>{nav.title}</a>
             </li>
@@ -58,7 +55,7 @@ const Navbar = () => {
                 <img
                   src={close || "/placeholder.svg"}
                   alt="close"
-                  className="w-[22px] h-[22px] object-contain cursor-pointer"
+                  className="w-[26px] h-[26px] object-contain cursor-pointer"
                   onClick={() => setToggle(!toggle)}
                 />
               </div>
@@ -86,7 +83,7 @@ const Navbar = () => {
             <img
               src={menu || "/placeholder.svg"}
               alt="menu"
-              className="w-[28px] h-[28px] object-contain cursor-pointer"
+              className="w-[32px] h-[32px] object-contain cursor-pointer"
               onClick={() => setToggle(!toggle)}
             />
           )}
