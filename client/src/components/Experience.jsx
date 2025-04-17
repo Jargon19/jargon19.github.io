@@ -100,13 +100,15 @@ const Experience = () => {
               sm:mt-[22px] mt-[16px] hover:bg-battleGray 
               hover:text-eerieBlack transition duration-[0.2s] 
               ease-in-out"
-              onClick={() =>
-                // resume link
-                window.open(
-                  'https://www.dropbox.com/scl/fi/g1auwg8xlu7mgbjj3dgyt/Resume.pdf?rlkey=pjtc8iwb7d2lmmhp1fx49e43s&st=tqrznsdq&dl=0',
-                  '_blank'
-                )
-              }
+              onClick={() => {
+                // Create an anchor element
+                const link = document.createElement('a');
+                link.href = '/Resume.pdf'; // Adjust if you're placing it elsewhere
+                link.download = 'SeanPrevity_Resume.pdf';
+                document.body.appendChild(link);
+                link.click();
+                document.body.removeChild(link);
+              }}
               onMouseOver={() => {
                 document
                   .querySelector('.download-btn')
@@ -116,7 +118,8 @@ const Experience = () => {
                 document
                   .querySelector('.download-btn')
                   .setAttribute('src', download);
-              }}>
+              }}
+            >
               MY RESUME
               <img
                 src={download}

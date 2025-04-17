@@ -49,12 +49,12 @@ const Hero = () => {
               Computer Science student at the University of Central Florida.
             </p>
             
-            {/* Social links container with improved clickable area */}
+            {/* Social links container */}
             <div className="flex flex-row items-center mt-6 space-x-4 flex-wrap">
-              {/* LinkedIn button with improved clickable area */}
+              {/* LinkedIn button */}
               <div className="relative inline-block mb-2">
                 <a 
-                  href="https://linkedin.com/in/roman-di-cesare-994641309" 
+                  href="https://linkedin.com/in/sean-previty-64439b2b9" 
                   className="inline-block w-full h-full px-4 py-2 text-lg font-bold text-battleGray border-2 border-battleGray rounded-md 
                             hover:bg-battleGray hover:text-white transition-all duration-300 ease-in-out cursor-pointer"
                   target="_blank"
@@ -65,10 +65,10 @@ const Hero = () => {
                 </a>
               </div>
               
-              {/* GitHub button with improved clickable area */}
+              {/* GitHub button */}
               <div className="relative inline-block mb-2">
                 <a 
-                  href="https://github.com/romandicesarefernandes" 
+                  href="https://github.com/jargon19" 
                   className="inline-block w-full h-full px-4 py-2 text-lg font-bold text-battleGray border-2 border-battleGray rounded-md 
                             hover:bg-battleGray hover:text-white transition-all duration-300 ease-in-out cursor-pointer"
                   target="_blank"
@@ -79,18 +79,18 @@ const Hero = () => {
                 </a>
               </div>
               
-              {/* Resume button with improved clickable area */}
+              {/* Resume button */}
               <div className="relative inline-block mb-2">
-                <a 
-                  href="https://www.dropbox.com/scl/fi/g1auwg8xlu7mgbjj3dgyt/Resume.pdf?rlkey=pjtc8iwb7d2lmmhp1fx49e43s&st=tqrznsdq&dl=0" 
-                  className="inline-block w-full h-full px-4 py-2 text-lg font-bold text-battleGray border-2 border-battleGray rounded-md 
-                            hover:bg-battleGray hover:text-white transition-all duration-300 ease-in-out cursor-pointer"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  onClick={(e) => e.stopPropagation()}
-                >
-                  Resume
-                </a>
+              <a 
+                href="/Resume.pdf" 
+                className="inline-block w-full h-full px-4 py-2 text-lg font-bold text-battleGray border-2 border-battleGray rounded-md 
+                          hover:bg-battleGray hover:text-white transition-all duration-300 ease-in-out cursor-pointer"
+                download="SeanPrevity_Resume.pdf"
+                onClick={(e) => e.stopPropagation()}
+              >
+                Resume
+              </a>
+
               </div>
             </div>
           </div>
@@ -124,8 +124,6 @@ const Hero = () => {
             </div>
           </a>
         </div>
-
-        {/* Your image comes here. Feel free to remove image if you don't plan to have one.*/}
         <div>
           <img
             className="absolute bottom-7 ml-[45vw] 
