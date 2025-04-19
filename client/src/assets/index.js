@@ -38,6 +38,7 @@ import rubyrails from './tech/rubyrails.png';
 import coverhunt from './company/coverhunt.png';
 
 import pegpark from './projects/pegasusparking.png';
+import eventmanager from './projects/eventmanager.png';
 import soon from './projects/soon.jpg'
 
 export {
@@ -77,4 +78,5 @@ export {
   soon,
   coverhunt,
   ucf,
+  eventmanager,
 };

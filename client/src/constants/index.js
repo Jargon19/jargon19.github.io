@@ -15,6 +15,7 @@ import {
   pegpark,
   coverhunt,
   soon,
+  eventmanager,
 } from '../assets';
 
 export const navLinks = [
@@ -92,7 +93,7 @@ const technologies = [
 
 const experiences = [
   {
-    title: 'AI Tester',
+    title: 'AI Tester (Freelance)',
     company_name: 'Outlier',
     icon: coverhunt,
     iconBg: '#333333',
@@ -103,8 +104,31 @@ const experiences = [
 const projects = [
   {
     id: 'project-1',
+    name: 'Event Manager',
+    description:
+      'An event manager app that allows users to set up university events and create Registered Student Organizations (RSO).',
+    tags: [
+      {
+        name: 'react',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'restapi',
+        color: 'green-text-gradient',
+      },
+      {
+        name: 'scss',
+        color: 'pink-text-gradient',
+      },
+    ],
+    image: eventmanager,
+    repo: 'https://github.com/Jargon19/Event-Manager',
+    demo: 'https://github.com/Jargon19/Event-Manager',
+  },
+  {
+    id: 'project-2',
     name: 'Pegasus Parking',
-    description: 'An app that shows you the closest availbale parking on UCF based on your destination.',
+    description: 'An app that shows you the closest parking location on UCF based on your destination and available permits.',
     tags: [
       {
         name: 'react',
@@ -124,32 +148,9 @@ const projects = [
     demo: 'https://drive.google.com/file/d/1vXKBOCBq1IBONN2DMke0NKK5voBxYzjZ/view?usp=drive_link',
   },
   {
-    id: 'project-2',
-    name: 'Event Manager',
-    description:
-      'An event manager app that allows users to set up university events.',
-    tags: [
-      {
-        name: 'react',
-        color: 'blue-text-gradient',
-      },
-      {
-        name: 'restapi',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'scss',
-        color: 'pink-text-gradient',
-      },
-    ],
-    image: soon,
-    repo: 'https://github.com/Jargon19/DB-Project',
-    demo: 'https://github.com/Jargon19/DB-Project',
-  },
-  {
     id: 'project-3',
     name: 'Babel (Soon)',
-    description: 'React application using open-source AI to translate text and documents.',
+    description: 'React application that leverages open-source AI to translate text and documents.',
     tags: [
       {
         name: 'nextjs',
