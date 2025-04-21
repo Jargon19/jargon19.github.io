@@ -122,8 +122,8 @@ const projects = [
       },
     ],
     image: eventmanager,
-    repo: 'https://github.com/Jargon19/Event-Manager',
-    demo: 'https://github.com/Jargon19/Event-Manager',
+    repo: 'https://github.com/seanprevity/Event-Manager',
+    demo: 'https://github.com/seanprevity/Event-Manager',
   },
   {
     id: 'project-2',
@@ -144,7 +144,7 @@ const projects = [
       },
     ],
     image: pegpark,
-    repo: 'https://github.com/Jargon19/pegasus-parking',
+    repo: 'https://github.com/seanprevity/pegasus-parking',
     demo: 'https://drive.google.com/file/d/1vXKBOCBq1IBONN2DMke0NKK5voBxYzjZ/view?usp=drive_link',
   },
   {
@@ -166,8 +166,8 @@ const projects = [
       },
     ],
     image: soon,
-    repo: 'https://github.com/Jargon19',
-    demo: 'https://github.com/Jargon19',
+    repo: 'https://github.com/seanprevity',
+    demo: 'https://github.com/seanprevity',
   },
 ];
 

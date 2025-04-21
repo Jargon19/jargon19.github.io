@@ -68,7 +68,7 @@ const Hero = () => {
               {/* GitHub button */}
               <div className="relative inline-block mb-2">
                 <a 
-                  href="https://github.com/jargon19" 
+                  href="https://github.com/seanprevity" 
                   className="inline-block w-full h-full px-4 py-2 text-lg font-bold text-battleGray border-2 border-battleGray rounded-md 
                             hover:bg-battleGray hover:text-white transition-all duration-300 ease-in-out cursor-pointer"
                   target="_blank"
