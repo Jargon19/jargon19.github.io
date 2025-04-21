@@ -1,2 +1,2 @@
-# jargon19.github.io
+# seanprevity.github.io
 Website.
