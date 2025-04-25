@@ -9,13 +9,13 @@ import {
   reactjs,
   nodejs,
   git,
-  figma,
   docker,
   postgresql,
   pegpark,
   coverhunt,
   soon,
   eventmanager,
+  francetravel,
 } from '../assets';
 
 export const navLinks = [
@@ -54,7 +54,7 @@ const services = [
 
 const technologies = [
   {
-    name: 'HTML 5',
+    name: 'HTML',
     icon: html,
   },
   {
@@ -80,10 +80,6 @@ const technologies = [
   {
     name: 'git',
     icon: git,
-  },
-  {
-    name: 'figma',
-    icon: figma,
   },
   {
     name: 'docker',
@@ -149,6 +145,28 @@ const projects = [
   },
   {
     id: 'project-3',
+    name: 'France Explorer',
+    description: 'An app that allows you to search every french city on an interactive google map and get back useful information in French or English.',
+    tags: [
+      {
+        name: 'react',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'mongodb',
+        color: 'green-text-gradient',
+      },
+      {
+        name: 'tailwind',
+        color: 'pink-text-gradient',
+      },
+    ],
+    image: francetravel,
+    repo: 'https://github.com/seanprevity/pegasus-parking',
+    demo: 'https://drive.google.com/file/d/1vXKBOCBq1IBONN2DMke0NKK5voBxYzjZ/view?usp=drive_link',
+  },
+  {
+    id: 'project-4',
     name: 'Babel (Soon)',
     description: 'React application that leverages open-source AI to translate text and documents.',
     tags: [
