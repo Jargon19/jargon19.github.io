@@ -162,8 +162,8 @@ const projects = [
       },
     ],
     image: francetravel,
-    repo: 'https://github.com/seanprevity/pegasus-parking',
-    demo: 'https://drive.google.com/file/d/1vXKBOCBq1IBONN2DMke0NKK5voBxYzjZ/view?usp=drive_link',
+    repo: 'https://github.com/seanprevity/France-Explorer',
+    demo: 'https://github.com/seanprevity/France-Explorer',
   },
   {
     id: 'project-4',
