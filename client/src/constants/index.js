@@ -163,7 +163,7 @@ const projects = [
     ],
     image: francetravel,
     repo: 'https://github.com/seanprevity/France-Explorer',
-    demo: 'https://github.com/seanprevity/France-Explorer',
+    demo: 'https://drive.google.com/file/d/1WX9bN_puyD32uuew6Vcmu4FTq99PvMHJ/view?usp=sharing',
   },
   {
     id: 'project-4',
