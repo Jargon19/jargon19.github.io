@@ -33,14 +33,16 @@ import tailwind from './tech/tailwind.png';
 import typescript from './tech/typescript.png';
 import graphql from './tech/graphql.png';
 import postgresql from './tech/postgresql.png';
-import rubyrails from './tech/rubyrails.png'
+import rubyrails from './tech/rubyrails.png';
 
 import coverhunt from './company/coverhunt.png';
 
 import pegpark from './projects/PegasusParking.png';
 import eventmanager from './projects/eventmanager.png';
-import soon from './projects/soon.jpg'
-import francetravel from './projects/francetravel.png'
+import soon from './projects/soon.jpg';
+import francetravel from './projects/francetravel.png';
+import EPLimage from './projects/EPL.png';
+import EPLimage2 from './projects/EPL2.png';
 
 export {
   bwmap,
@@ -80,5 +82,7 @@ export {
   coverhunt,
   ucf,
   eventmanager,
-  francetravel
+  francetravel,
+  EPLimage,
+  EPLimage2,
 };

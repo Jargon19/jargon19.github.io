@@ -16,6 +16,8 @@ import {
   soon,
   eventmanager,
   francetravel,
+  EPLimage,
+  EPLimage2,
 } from '../assets';
 
 export const navLinks = [
@@ -102,7 +104,7 @@ const projects = [
     id: 'project-1',
     name: 'Event Manager',
     description:
-      'An event manager app that allows users to set up university events and create Registered Student Organizations (RSO).',
+      'An event manager app used to set up university events and create Registered Student Organizations (RSO).',
     tags: [
       {
         name: 'react',
@@ -124,7 +126,7 @@ const projects = [
   {
     id: 'project-2',
     name: 'Pegasus Parking',
-    description: 'An app that shows you the closest parking location on UCF based on your destination and available permits.',
+    description: 'An app that shows you the closest parking location on UCF based on your destination and permits.',
     tags: [
       {
         name: 'react',
@@ -146,7 +148,7 @@ const projects = [
   {
     id: 'project-3',
     name: 'France Explorer',
-    description: 'An app that allows you to search every french city on an interactive google map and get back useful information in French or English.',
+    description: 'An app that allows you to explore every french city in French or English.',
     tags: [
       {
         name: 'react',
@@ -163,10 +165,32 @@ const projects = [
     ],
     image: francetravel,
     repo: 'https://github.com/seanprevity/France-Explorer',
-    demo: 'https://drive.google.com/file/d/1WX9bN_puyD32uuew6Vcmu4FTq99PvMHJ/view?usp=sharing',
+    demo: 'https://explorefrance.vercel.app/',
   },
   {
     id: 'project-4',
+    name: 'EPL Stats Tracker',
+    description: 'A website that tracks H2H records, team stats and odds for English Premiere League matches.',
+    tags: [
+      {
+        name: 'react',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'mongodb',
+        color: 'green-text-gradient',
+      },
+      {
+        name: 'tailwind',
+        color: 'pink-text-gradient',
+      },
+    ],
+    image: EPLimage,
+    repo: 'https://github.com/seanprevity/EPL-Stats',
+    demo: 'https://drive.google.com/file/d/1DFI7yKLfF_S476kxrItgLvkpiOpfdT25/view?usp=drive_link',
+  },
+  {
+    id: 'project-5',
     name: 'Babel (Soon)',
     description: 'React application that leverages open-source AI to translate text and documents.',
     tags: [

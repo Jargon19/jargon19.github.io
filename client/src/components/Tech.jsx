@@ -45,7 +45,7 @@ const Tech = () => {
 
       <motion.p
         className="mt-4 text-taupe text-[18px] max-w-3xl leading-[30px]">
-        For a full list of my technical skills, please refer to my resume.
+        For a full list of my technical skills, please refer to my CV.
       </motion.p>
 
       <div className="flex flex-wrap justify-center gap-8 mt-14">
